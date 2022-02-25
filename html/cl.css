@@ -1,0 +1,19 @@
+.menu {
+    background-color: #c0adc4;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.menu .a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a{
+    margin-top: 100px;
+    padding: 10px;
+    color: rgb(99, 76, 76);
+}

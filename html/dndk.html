@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="dndk.css">
+</head>
+<body>
+    <div class="mainnn">
+        <form>
+            <div class="form-group">
+                <label class="form-group-label">Họ và tên</label> <br />
+                <input type="text" class="form-control" tabindex="1"/>
+            </div>
+            <div class="form-group">
+            <fieldset>
+                <legend>Giới tính</legend>
+                <label class="form-group-label">
+                <input type="radio" name="gioitinh" value="Nam" checked tabindex= "2"/> Nam
+                <input type="radio" name="gioitinh" value="Nam"  tabindex ="2"/> Nữ
+                </label>
+            </fieldset>
+            </div>
+            <div class="form-group">
+                <label class="form-group-label">Email</label> <br />
+                <input type="text" class="form-control" tabindex="3">
+            </div>
+
+            <div class="form-group">
+                <label class="form-group-label">Ngày sinh</label> <br />
+                <input type="date" class="form-control" tabindex="4">
+            </div>
+
+            <div class="form-gorup">
+                <label class="form-group-label">Nghề nghiệp</label> <br />
+                <input list="nghenghiep" class="form-control" tabindex="5">
+                <datalist id="nghenghiep">
+                <option value="Nhân viên"></option>
+                <option value="Học sinh"></option>
+                <option value="Công nhân"></option>
+                <option value="Nhân viên văn phòng"></option>
+                <option value="Khác"></option>
+            </datalist>
+            </div>
+            <div class="form-group">
+                <fieldset>
+                    <legend>thể loại phim muốn xem</legend> <br />
+                    <label class="form-group-label">
+                    <input type="checkbox" name="sothich" value="Điện thoại" tabindex ="6"/> Kinh dị
+                    <input type="checkbox" name="sothich" value="Tablet"  /> Hài hước
+                    <input type="checkbox" name="sothich" value="Laptop"  /> Lãng mạng
+                    <input type="checkbox" name="sothich" value="Phụ kiện"  /> Hành động
+                    <input type="checkbox" name="sothich" value="Khác"  /> Khác
+                    </label>
+                </fieldset>
+                </div>
+            <div class="form-group">
+                <label class="form-group-label">Ghi chú</label> <br />
+                <textarea rows ="6" cols="144" class ="form-control" tabindex="7"></textarea>
+            </div>    
+            <hr />
+            <button type="submit" class="form-button" tabindex="9" >Đăng ký</button>
+            <button type="reset" class="form-button" tabindex="10" >Reset</button>
+        </form>
+    </div>
+
+</div>
+
+    <a href="dkdn.html" style="font-weight: bolder; color: black;margin: 540; text-decoration: none;" >Đăng nhập tại đây</a>
+</body>
+</html>

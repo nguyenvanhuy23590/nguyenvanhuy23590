@@ -1,0 +1,32 @@
+.nav{
+    width:500px;
+    height: 35px;
+    background-color: brown;
+    float: left;
+    padding: 5px ;
+    list-style: none;
+}
+
+li{padding: 10px;
+    float: left;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+a:hover{
+    background-color: yellow;
+    color: tomato;
+    font-weight: bolder;
+}
+
+.menu{
+    display: block;
+    list-style: none;
+    color: violet;
+    background-color: rgb(78, 83, 68);
+}
